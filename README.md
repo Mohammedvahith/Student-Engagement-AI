@@ -2,39 +2,13 @@
 
 <p align="center">
 
-![Python](https://img.shields.io/badge/Python-3.10-blue?style=for-the-badge&logo=python)
-![Streamlit](https://img.shields.io/badge/Streamlit-Web_App-red?style=for-the-badge&logo=streamlit)
-![YOLO](https://img.shields.io/badge/YOLO-Ultralytics-green?style=for-the-badge)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-Deep_Learning-orange?style=for-the-badge&logo=tensorflow)
-![OpenCV](https://img.shields.io/badge/OpenCV-Computer_Vision-blue?style=for-the-badge&logo=opencv)
-![Docker](https://img.shields.io/badge/Docker-Containerized-2496ED?style=for-the-badge&logo=docker)
+<img src="YOUR_MAIN_SCREENSHOT_URL" width="900"/>
 
 </p>
 
----
-
-## 📖 Overview
-
-The **AI-Powered Student Engagement System** is a computer vision application designed to analyze classroom videos and evaluate student engagement using deep learning techniques.
-
-The system detects students, processes classroom interactions, and generates engagement insights through an intuitive **Streamlit** web application. It combines **YOLO**, **TensorFlow**, and **OpenCV** to automate video analysis and present meaningful analytics for educators.
-
----
-
-## ✨ Key Features
-
-- 🎥 Upload classroom videos
-- 🤖 Student detection using **YOLO**
-- 🧠 AI-based engagement analysis
-- 📊 Interactive analytics dashboard
-- 📈 Visual insights and statistics
-- ⚡ Automated video processing pipeline
-- 💻 Modern Streamlit interface
-- 🐳 Docker support for easy deployment
-
----
-
-## 🌐 Quick Links
+<p align="center">
+An AI-powered computer vision system that analyzes classroom videos and evaluates student engagement using Deep Learning and Computer Vision.
+</p>
 
 <p align="center">
 
@@ -52,54 +26,96 @@ The system detects students, processes classroom interactions, and generates eng
 
 </p>
 
-# 📷 Application Preview
+---
 
+# 📖 Overview
 
-## Home Page
+The **AI-Powered Student Engagement System** is a computer vision-based application designed to analyze classroom videos and measure student engagement using artificial intelligence.
 
-<img width="1919" height="912" alt="1" src="https://github.com/user-attachments/assets/4ff8e135-a2c3-4572-a1eb-59f9b4370eeb" />
+The system uses **YOLO object detection**, **TensorFlow-based deep learning models**, and **OpenCV video processing** to detect students, analyze classroom activities, and generate meaningful engagement insights through an interactive Streamlit dashboard.
 
-## Video Upload
-
-<img width="1919" height="911" alt="2" src="https://github.com/user-attachments/assets/b00623b8-4a1e-464a-8013-e35c6458caec" />
-
-## Analytics Dashboard
-
-<img width="1919" height="909" alt="3" src="https://github.com/user-attachments/assets/b21cbb99-12f8-4cba-94f5-f0b5f1fa2db2" />
-
-<img width="1919" height="911" alt="4" src="https://github.com/user-attachments/assets/8237207f-436e-46d4-9e43-45bacac1d83d" />
-
-## Processed Output 
-
-<img width="1919" height="905" alt="5" src="https://github.com/user-attachments/assets/ad588feb-a7bf-4dc8-9773-17f0f1cf27fd" />
+This project aims to assist educators by providing automated analysis of classroom environments and helping understand student participation levels.
 
 ---
 
-# 🏗️ System Workflow
+# ✨ Features
+
+## 🎥 Video Analysis
+- Upload classroom videos
+- Extract and process video frames
+- Automated AI-based analysis
+
+## 🤖 Computer Vision
+- Student detection using YOLO
+- Object tracking
+- Frame-level analysis
+
+## 📊 Analytics Dashboard
+- Engagement statistics
+- Visual reports
+- Processed video outputs
+- Interactive data visualization
+
+## 🚀 Deployment
+- Streamlit web application
+- Docker container support
+- Ready-to-deploy architecture
+
+---
+
+# 📸 Application Screenshots
+
+## 🏠 Home Page
+
+<img src="https://github.com/user-attachments/assets/4ff8e135-a2c3-4572-a1eb-59f9b4370eeb" width="900"/>
+
+---
+
+## 📤 Video Upload
+
+<img src="https://github.com/user-attachments/assets/b00623b8-4a1e-464a-8013-e35c6458caec" width="900"/>
+
+---
+
+## 📊 Analytics Dashboard
+
+<img src="https://github.com/user-attachments/assets/b21cbb99-12f8-4cba-94f5-f0b5f1fa2db2" width="900"/>
+
+<img src="https://github.com/user-attachments/assets/8237207f-436e-46d4-9e43-45bacac1d83d" width="900"/>
+
+---
+
+## 🎬 Processed Output
+
+<img src="https://github.com/user-attachments/assets/ad588feb-a7bf-4dc8-9773-17f0f1cf27fd" width="900"/>
+
+---
+
+# 🏗️ System Architecture
 
 ```text
-                Classroom Video
-                        │
+                 Classroom Video
+                        |
                         ▼
-                Upload to Streamlit
-                        │
+              Streamlit Web Interface
+                        |
                         ▼
-             Video Frame Extraction
-                        │
+              Video Frame Extraction
+                        |
                         ▼
-          Student Detection (YOLO Model)
-                        │
+              YOLO Object Detection
+                        |
                         ▼
-         Engagement Feature Extraction
-                        │
+          Engagement Feature Processing
+                        |
                         ▼
-           AI-Based Engagement Analysis
-                        │
+              AI Engagement Analysis
+                        |
                         ▼
-            Analytics & Visual Reports
-                        │
+             Analytics Visualization
+                        |
                         ▼
-                User Dashboard
+                  Final Report
 ```
 
 ---
@@ -109,13 +125,13 @@ The system detects students, processes classroom interactions, and generates eng
 | Category | Technologies |
 |----------|--------------|
 | Programming Language | Python 3.10 |
-| Frontend | Streamlit |
+| Web Framework | Streamlit |
 | Deep Learning | TensorFlow |
 | Object Detection | YOLO (Ultralytics) |
 | Computer Vision | OpenCV |
 | Data Processing | NumPy, Pandas |
 | Visualization | Matplotlib |
-| Deployment | Docker |
+| Containerization | Docker |
 
 ---
 
@@ -124,17 +140,17 @@ The system detects students, processes classroom interactions, and generates eng
 ```text
 student_engagement_system/
 │
-├── analytics/
-├── config/
-├── models/
-├── outputs/
-├── processing/
-├── tracking/
-├── utils/
+├── analytics/          # Analytics generation
+├── config/             # Configuration files
+├── models/             # AI models
+├── outputs/            # Generated outputs
+├── processing/         # Video processing pipeline
+├── tracking/           # Object tracking logic
+├── utils/              # Helper functions
 │
-├── app.py
-├── requirements.txt
-├── Dockerfile
+├── app.py              # Streamlit application
+├── requirements.txt    # Python dependencies
+├── Dockerfile          # Docker configuration
 ├── docker-compose.yaml
 ├── .dockerignore
 ├── .gitignore
@@ -143,9 +159,11 @@ student_engagement_system/
 
 ---
 
-# 🚀 Installation
+# 🚀 Quick Start
 
-Clone the repository
+## Option 1: Run Locally
+
+### Clone repository
 
 ```bash
 git clone https://github.com/YOUR_USERNAME/student_engagement_system.git
@@ -153,41 +171,39 @@ git clone https://github.com/YOUR_USERNAME/student_engagement_system.git
 cd student_engagement_system
 ```
 
-Create a virtual environment
+### Create virtual environment
 
 ```bash
 python -m venv .venv
 ```
 
-Activate the environment
+### Activate environment
 
-### Windows
+Windows:
 
 ```bash
 .venv\Scripts\activate
 ```
 
-### Linux / macOS
+Linux/macOS:
 
 ```bash
 source .venv/bin/activate
 ```
 
-Install dependencies
+### Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
----
-
-# ▶️ Running the Application
+### Start application
 
 ```bash
 streamlit run app.py
 ```
 
-Open your browser:
+Application URL:
 
 ```
 http://localhost:8501
@@ -195,68 +211,82 @@ http://localhost:8501
 
 ---
 
-# 🐳 Run using Docker
+# 🐳 Run Using Docker
 
 A pre-built Docker image is available on Docker Hub.
 
+## Pull Docker Image
+
 ```bash
 docker pull vahith05/student-engagement-system:latest
+```
 
-docker run -p 8501:8501 vahith05/student-engagement-system:latest.
+## Run Container
+
+```bash
+docker run -p 8501:8501 vahith05/student-engagement-system:latest
+```
+
+Open:
+
+```
+http://localhost:8501
 ```
 
 ---
 
-# 📊 Output
+# 📊 Generated Results
 
-The system provides:
+The system generates:
 
 - Student detection results
 - Engagement analysis
-- Visual analytics
-- Performance statistics
-- Processed outputs
-- Interactive dashboard
+- Processed videos
+- Statistical reports
+- Visualization dashboards
 
 ---
 
-# 🔮 Future Enhancements
+# 🔮 Future Improvements
 
-- 🎯 Real-time webcam support
-- 👥 Multi-person engagement tracking
-- 📈 Advanced analytics dashboard
+- 🎥 Real-time classroom monitoring
+- 📷 Webcam-based analysis
+- 👥 Advanced student tracking
 - ☁️ Cloud deployment
 - 🗄️ Database integration
-- 📄 Export reports (PDF/Excel)
-- 🔐 User authentication
+- 📄 Automated PDF reports
+- 🔐 Authentication system
 - 📱 Mobile-friendly interface
 
 ---
 
 # 🤝 Contributing
 
-Contributions are welcome!
+Contributions are welcome.
 
-1. Fork the repository
-2. Create a new feature branch
+Steps:
+
+1. Fork this repository
+
+2. Create a new branch
 
 ```bash
 git checkout -b feature-name
 ```
 
-3. Commit your changes
+3. Commit changes
 
 ```bash
-git commit -m "Add new feature"
+git commit -m "Add feature"
 ```
 
-4. Push to your branch
+4. Push changes
 
 ```bash
 git push origin feature-name
 ```
 
-5. Open a Pull Request
+5. Create a Pull Request
 
 ---
 
@@ -264,11 +294,12 @@ git push origin feature-name
 
 **Vahith**
 
-If you found this project useful, consider giving it a ⭐ on GitHub!
+⭐ If you find this project useful, consider giving it a star!
 
 ---
 
 # 📄 License
 
 This project is developed for educational and research purposes.
+```
 
