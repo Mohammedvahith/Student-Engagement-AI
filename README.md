@@ -36,8 +36,12 @@ The system detects students, processes classroom interactions, and generates eng
 
 ## 🌐 Live Demo
 
-**Website:** [https://student-engagement-ai.streamlit.app/]
-
+**Website:** 
+<p align="center">
+  <a href="https://student-engagement-ai.streamlit.app/">
+    <img src="https://img.shields.io/badge/🚀%20Live%20Demo-Open%20Website-blue?style=for-the-badge" />
+  </a>
+</p>
 ---
 
 # 📷 Application Preview
