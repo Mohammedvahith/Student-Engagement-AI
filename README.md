@@ -301,4 +301,3 @@ git push origin feature-name
 # 📄 License
 
 This project is developed for educational and research purposes.
-```
