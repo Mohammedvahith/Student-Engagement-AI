@@ -1,40 +1,99 @@
 ````markdown
-# 🎓 Student Engagement System
+# 🎓 AI-Powered Student Engagement System
 
-An AI-powered Student Engagement System that analyzes classroom videos to monitor and evaluate student engagement using computer vision and deep learning techniques.
+<p align="center">
 
-The application provides an interactive Streamlit interface for uploading videos, processing them with AI models, and presenting engagement insights through visual analytics.
+![Python](https://img.shields.io/badge/Python-3.10-blue?style=for-the-badge&logo=python)
+![Streamlit](https://img.shields.io/badge/Streamlit-Web_App-red?style=for-the-badge&logo=streamlit)
+![YOLO](https://img.shields.io/badge/YOLO-Ultralytics-green?style=for-the-badge)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-Deep_Learning-orange?style=for-the-badge&logo=tensorflow)
+![OpenCV](https://img.shields.io/badge/OpenCV-Computer_Vision-blue?style=for-the-badge&logo=opencv)
+![Docker](https://img.shields.io/badge/Docker-Containerized-2496ED?style=for-the-badge&logo=docker)
+
+</p>
 
 ---
 
-## 🚀 Features
+## 📖 Overview
 
-- 📹 Upload classroom videos
-- 🤖 AI-powered student detection using YOLO
-- 😊 Student engagement analysis
+The **AI-Powered Student Engagement System** is a computer vision application designed to analyze classroom videos and evaluate student engagement using deep learning techniques.
+
+The system detects students, processes classroom interactions, and generates engagement insights through an intuitive **Streamlit** web application. It combines **YOLO**, **TensorFlow**, and **OpenCV** to automate video analysis and present meaningful analytics for educators.
+
+---
+
+## ✨ Key Features
+
+- 🎥 Upload classroom videos
+- 🤖 Student detection using **YOLO**
+- 🧠 AI-based engagement analysis
 - 📊 Interactive analytics dashboard
-- 📈 Visual reports and statistics
-- ⚡ Real-time processing pipeline
-- 🖥️ User-friendly Streamlit interface
-- 🐳 Docker support for deployment
+- 📈 Visual insights and statistics
+- ⚡ Automated video processing pipeline
+- 💻 Modern Streamlit interface
+- 🐳 Docker support for easy deployment
 
 ---
 
-## 🛠️ Technologies Used
+# 📷 Application Preview
 
-- Python 3.10
-- Streamlit
-- YOLO (Ultralytics)
-- TensorFlow
-- OpenCV
-- NumPy
-- Pandas
-- Matplotlib
-- Docker
+> Replace these images with your own screenshots.
+
+| Home Page | Analytics Dashboard |
+|------------|---------------------|
+| ![](images/home.png) | ![](images/dashboard.png) |
+
+| Video Upload | Processed Output |
+|--------------|------------------|
+| ![](images/upload.png) | ![](images/output.png) |
 
 ---
 
-## 📂 Project Structure
+# 🏗️ System Workflow
+
+```text
+                Classroom Video
+                        │
+                        ▼
+                Upload to Streamlit
+                        │
+                        ▼
+             Video Frame Extraction
+                        │
+                        ▼
+          Student Detection (YOLO Model)
+                        │
+                        ▼
+         Engagement Feature Extraction
+                        │
+                        ▼
+           AI-Based Engagement Analysis
+                        │
+                        ▼
+            Analytics & Visual Reports
+                        │
+                        ▼
+                User Dashboard
+```
+
+---
+
+# 🛠️ Technology Stack
+
+| Category | Technologies |
+|----------|--------------|
+| Programming Language | Python 3.10 |
+| Frontend | Streamlit |
+| Deep Learning | TensorFlow |
+| Object Detection | YOLO (Ultralytics) |
+| Computer Vision | OpenCV |
+| Data Processing | NumPy, Pandas |
+| Visualization | Matplotlib |
+| Deployment | Docker |
+
+---
+
+# 📂 Project Structure
 
 ```text
 student_engagement_system/
@@ -52,14 +111,15 @@ student_engagement_system/
 ├── Dockerfile
 ├── docker-compose.yaml
 ├── .dockerignore
+├── .gitignore
 └── README.md
 ```
 
 ---
 
-## ⚙️ Installation
+# 🚀 Installation
 
-### Clone the repository
+Clone the repository
 
 ```bash
 git clone https://github.com/YOUR_USERNAME/student_engagement_system.git
@@ -67,27 +127,27 @@ git clone https://github.com/YOUR_USERNAME/student_engagement_system.git
 cd student_engagement_system
 ```
 
-### Create a virtual environment
+Create a virtual environment
 
 ```bash
 python -m venv .venv
 ```
 
-### Activate the environment
+Activate the environment
 
-Windows
+### Windows
 
 ```bash
 .venv\Scripts\activate
 ```
 
-Linux/macOS
+### Linux / macOS
 
 ```bash
 source .venv/bin/activate
 ```
 
-### Install dependencies
+Install dependencies
 
 ```bash
 pip install -r requirements.txt
@@ -95,13 +155,13 @@ pip install -r requirements.txt
 
 ---
 
-## ▶️ Run the Application
+# ▶️ Running the Application
 
 ```bash
 streamlit run app.py
 ```
 
-The application will be available at
+Open your browser:
 
 ```
 http://localhost:8501
@@ -109,97 +169,90 @@ http://localhost:8501
 
 ---
 
-# 🐳 Docker
+# 🐳 Docker Deployment
 
-### Build the Docker image
+Build the Docker image
 
 ```bash
 docker build -t student-engagement-system .
 ```
 
-### Run the Docker container
+Run the Docker container
 
 ```bash
 docker run -p 8501:8501 student-engagement-system
 ```
 
----
+Then open:
 
-## 📸 Screenshots
-
-### Home Page
-
-![Home](images/home.png)
-
-### Dashboard
-
-![Dashboard](images/dashboard.png)
-
-### Video Processing
-
-![Video Processing](images/video_processing.png)
-
-> Replace the images above with your own screenshots.
-
----
-
-## 📈 Workflow
-
-```text
-Upload Video
-      │
-      ▼
-Frame Extraction
-      │
-      ▼
-YOLO Detection
-      │
-      ▼
-Engagement Analysis
-      │
-      ▼
-Analytics Generation
-      │
-      ▼
-Visualization Dashboard
+```
+http://localhost:8501
 ```
 
 ---
 
-## 📦 Requirements
+# 📊 Output
 
-Install all required packages using
+The system provides:
+
+- Student detection results
+- Engagement analysis
+- Visual analytics
+- Performance statistics
+- Processed outputs
+- Interactive dashboard
+
+---
+
+# 🔮 Future Enhancements
+
+- 🎯 Real-time webcam support
+- 👥 Multi-person engagement tracking
+- 📈 Advanced analytics dashboard
+- ☁️ Cloud deployment
+- 🗄️ Database integration
+- 📄 Export reports (PDF/Excel)
+- 🔐 User authentication
+- 📱 Mobile-friendly interface
+
+---
+
+# 🤝 Contributing
+
+Contributions are welcome!
+
+1. Fork the repository
+2. Create a new feature branch
 
 ```bash
-pip install -r requirements.txt
+git checkout -b feature-name
 ```
 
----
+3. Commit your changes
 
-## 🔮 Future Improvements
+```bash
+git commit -m "Add new feature"
+```
 
-- Real-time webcam analysis
-- Multi-class engagement detection
-- Attendance integration
-- Cloud deployment
-- Database support
-- Export analytics as PDF/Excel
-- Multi-user authentication
+4. Push to your branch
 
----
+```bash
+git push origin feature-name
+```
 
-## 👨‍💻 Author
-
-**Your Name**
-
-GitHub: https://github.com/YOUR_USERNAME
-
-LinkedIn: https://linkedin.com/in/YOUR_PROFILE
+5. Open a Pull Request
 
 ---
 
-## 📄 License
+# 👨‍💻 Author
 
-This project is intended for educational and research purposes.
+**Vahith**
 
+If you found this project useful, consider giving it a ⭐ on GitHub!
+
+---
+
+# 📄 License
+
+This project is developed for educational and research purposes.
 ````
