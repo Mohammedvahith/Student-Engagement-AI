@@ -34,6 +34,12 @@ The system detects students, processes classroom interactions, and generates eng
 
 ---
 
+## 🌐 Live Demo
+
+**Website:** [https://student-engagement-ai.streamlit.app/]
+
+---
+
 # 📷 Application Preview
 
 
