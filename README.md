@@ -36,7 +36,6 @@ The system detects students, processes classroom interactions, and generates eng
 
 # 📷 Application Preview
 
-> Replace these images with your own screenshots.
 
 Home Page
 
