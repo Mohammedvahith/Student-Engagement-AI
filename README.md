@@ -168,24 +168,14 @@ http://localhost:8501
 
 ---
 
-# 🐳 Docker Deployment
+# 🐳 Run using Docker
 
-Build the Docker image
-
-```bash
-docker build -t student-engagement-system .
-```
-
-Run the Docker container
+A pre-built Docker image is available on Docker Hub.
 
 ```bash
-docker run -p 8501:8501 student-engagement-system
-```
+docker pull vahith05/student-engagement-system:latest
 
-Then open:
-
-```
-http://localhost:8501
+docker run -p 8501:8501 vahith05/student-engagement-system:latest.
 ```
 
 ---
