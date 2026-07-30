@@ -34,15 +34,23 @@ The system detects students, processes classroom interactions, and generates eng
 
 ---
 
-## 🌐 Live Demo
+## 🌐 Quick Links
 
-**Website:** 
 <p align="center">
-  <a href="https://student-engagement-ai.streamlit.app/">
-    <img src="https://img.shields.io/badge/🚀%20Live%20Demo-Open%20Website-blue?style=for-the-badge" />
-  </a>
+
+<a href="https://student-engagement-ai.streamlit.app/">
+<img src="https://img.shields.io/badge/🚀%20Live%20Demo-Open%20Website-success?style=for-the-badge"/>
+</a>
+
+<a href="https://hub.docker.com/r/vahith05/student-engagement-system">
+<img src="https://img.shields.io/badge/🐳%20Docker%20Hub-Image-blue?style=for-the-badge&logo=docker"/>
+</a>
+
+<a href="https://github.com/YOUR_USERNAME/student_engagement_system">
+<img src="https://img.shields.io/badge/💻%20GitHub-Source%20Code-black?style=for-the-badge&logo=github"/>
+</a>
+
 </p>
----
 
 # 📷 Application Preview
 
