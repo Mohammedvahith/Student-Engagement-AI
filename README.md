@@ -39,13 +39,22 @@ The system detects students, processes classroom interactions, and generates eng
 > Replace these images with your own screenshots.
 
 Home Page
-(<img width="1919" height="912" alt="1" src="https://github.com/user-attachments/assets/4ff8e135-a2c3-4572-a1eb-59f9b4370eeb" />)
-Analytics Dashboard
+
+<img width="1919" height="912" alt="1" src="https://github.com/user-attachments/assets/4ff8e135-a2c3-4572-a1eb-59f9b4370eeb" />
 
 Video Upload
 
+<img width="1919" height="911" alt="2" src="https://github.com/user-attachments/assets/b00623b8-4a1e-464a-8013-e35c6458caec" />
+
+Analytics Dashboard
+
+<img width="1919" height="909" alt="3" src="https://github.com/user-attachments/assets/b21cbb99-12f8-4cba-94f5-f0b5f1fa2db2" />
+
+<img width="1919" height="911" alt="4" src="https://github.com/user-attachments/assets/8237207f-436e-46d4-9e43-45bacac1d83d" />
+
 Processed Output 
 
+<img width="1919" height="905" alt="5" src="https://github.com/user-attachments/assets/ad588feb-a7bf-4dc8-9773-17f0f1cf27fd" />
 
 ---
 
